@@ -10,8 +10,8 @@ class BrandColors {
   // Twitter
   static const Color twitterBlue = Color(0xff1da1f2);
   static const Color twitterBlack = Color(0xff14171a);
-  static const Color twitterDarkGrey = Color(0xffaab8c2);
-  static const Color twitterGrey = Color(0xffe1e8ed);
+  static const Color twitterDarkGray = Color(0xffaab8c2);
+  static const Color twitterGray = Color(0xffe1e8ed);
   static const Color twitterWhite = Color(0xfff5f8fa);
 
   // YouTube
@@ -66,8 +66,8 @@ class BrandColors {
   // Mastodon
   static const Color mastodonBlue = Color(0xff2b90d9);
   static const Color mastodonBlack = Color(0xff282c37);
-  static const Color mastodonGrey = Color(0xff9baec8);
-  static const Color mastodonLightGrey = Color(0xffd9e1e8);
+  static const Color mastodonGray = Color(0xff9baec8);
+  static const Color mastodonLightGray = Color(0xffd9e1e8);
 
   // Spotify
   static const Color spotifyGreen = Color(0xff1ed760);
@@ -76,14 +76,15 @@ class BrandColors {
   static const Color spotifyBlack = Color(0xff191414);
 
   // Apple
-  static const Color appleGrey = Color(0xffa6b1b7);
-  static const Color appleDarkGrey = Color(0xff333333);
-  static const Color appleLightGrey = Color(0xffbbbbbb);
+  static const Color appleGray = Color(0xffa6b1b7);
+  static const Color appleDarkGray = Color(0xff333333);
+  static const Color appleLightGray = Color(0xffbbbbbb);
   static const Color appleBlack = Color(0xff000000);
   static const Color appleWhite = Color(0xffffffff);
 
   // Amazon
   static const Color amazonOrange = Color(0xffff9900);
+  static const Color amazonBlue = Color(0xff146eb4);
 
   // Microsoft
   static const Color microsoftRed = Color(0xfff35022);
@@ -96,7 +97,7 @@ class BrandColors {
   static const Color periscopeRedOrange = Color(0xffd55548);
   static const Color periscopeLightBlue = Color(0xff7cd6f1);
   static const Color periscopeDarkBlue = Color(0xff3f4d51);
-  static const Color periscopeGrey = Color(0xffa4b8be);
+  static const Color periscopeGray = Color(0xffa4b8be);
 
   // Foursquare
   static const Color foursquarePink = Color(0xfff94877);
@@ -137,8 +138,8 @@ class BrandColors {
   // Dribbble
   static const Color dribbblePink = Color(0xffea4c89);
   static const Color dribbbleDarkPink = Color(0xffc32361);
-  static const Color dribbbleDarkGrey = Color(0xff444444);
-  static const Color dribbbleGrey = Color(0xff9ba5a8);
+  static const Color dribbbleDarkGray = Color(0xff444444);
+  static const Color dribbbleGray = Color(0xff9ba5a8);
 
   // Slack
   static const Color slackPurple = Color(0xff4a154b);
@@ -189,25 +190,45 @@ class BrandColors {
   static const Color deviantArtLightGreen = Color(0xff4dc47d);
   static const Color deviantArtLightGreen2 = Color(0xffd4f5de);
 
-  // ! Pocket
-  static const Color pocketPink = Color(0xffee4056);
+  // Pocket
+  static const Color pocketPinkPrimary = Color(0xffee4056);
+  static const Color pocketPink2 = Color(0xffef3e56);
+  static const Color pocketTeal1 = Color(0xff42b7b0);
+  static const Color pocketTeal2 = Color(0xff50bcb6);
+  static const Color pocketLightTeal = Color(0xff9bcfcc);
+  static const Color pocketLightGreen = Color(0xff83edb8);
+  static const Color pocketOrange = Color(0xfffcb643);
 
   // SlideShare
   static const Color slideShareBlue = Color(0xff00a0dc);
   static const Color slideShareDarkBlue = Color(0xffe68523);
   static const Color slideShareOrange = Color(0xff0077b5);
 
-  // ! 500px
+  // 500px
   static const Color fiveHundredPxBlue = Color(0xff0099e5);
+  static const Color fiveHundredPxBlack = Color(0xff222222);
+  static const Color fiveHundredPxWhite = Color(0xffffffff);
 
-  // ! Vk
-  static const Color vkBlue = Color(0xff4a76a8);
+  // Vk
+  static const Color vkBluePrimary = Color(0xff4a76a8);
+  static const Color vkBlue2 = Color(0xff4a76a8);
+  static const Color vkDarkBlue = Color(0xff2a5885);
+  static const Color vkDirtyWhite = Color(0xffedeef0);
+  static const Color vkWhite = Color(0xfff7f8fa);
 
-  // ! Steam
-  static const Color steamNavy = Color(0xff171A21);
+  // Steam
+  static const Color steamBlack = Color(0xff171A21);
+  static const Color steamNavy = Color(0xff1b2838);
+  static const Color steamLightBlue = Color(0xff66c0f4);
+  static const Color steamDarkBlue = Color(0xff2a475e);
+  static const Color steamGray = Color(0xffc7d5e0);
 
-  // ! Discord
+  // Discord
   static const Color discordBlurple = Color(0xff7289da);
+  static const Color discordWhite = Color(0xffffffff);
+  static const Color discordGray = Color(0xff99aab5);
+  static const Color discordBlack1 = Color(0xff2c2f33);
+  static const Color discordBlack2 = Color(0xff23272a);
 
   // Telegram
   static const Color telegramBlue = Color(0xff0088cc);
@@ -215,18 +236,89 @@ class BrandColors {
   // Clarity
   static const Color clarityBlue = Color(0xff61bed9);
 
-  // ! Listly
+  // Listly
   static const Color listlyOrange = Color(0xffdf6d46);
+  static const Color listlyDarkOrange = Color(0xffce4f24);
+  static const Color listlyBlue = Color(0xff52b1b3);
+  static const Color listlyDarkBlue = Color(0xff409092);
+  static const Color listlyBlack1 = Color(0xff333333);
+  static const Color listlyBlack2 = Color(0xff222222);
 
-  // ! Git
-  static const Color gitBlack = Color(0xff333333);
+  // GitHub
+  static const Color gitHubBlack = Color(0xff333333);
+  static const Color gitHubBlue = Color(0xff4078c0);
+  static const Color gitHubGreen = Color(0xff6cc644);
+  static const Color gitHubRed = Color(0xffbd2c00);
+  static const Color gitHubOrange = Color(0xffc9510c);
+  static const Color gitHubPurple = Color(0xff6e5494);
+  static const Color gitHubWhite = Color(0xfffafafa);
+  static const Color gitHubDirtyWhite = Color(0xfff5f5f5);
 
   // Viber
   static const Color viberPurple = Color(0xff665cac);
+  static const Color viberBlue = Color(0xff54c0d4);
+  static const Color viberRed = Color(0xffef6062);
+  static const Color viberYellow = Color(0xfff4eF7b);
+  static const Color viberDarkGray = Color(0xff4a4a4a);
+  static const Color viberGray = Color(0xffb0b0b0);
+  static const Color viberWhite = Color(0xffffffff);
 
   // Google+
   static const Color googlePlusRed = Color(0xffdb4437);
 
   // Vine
   static const Color vineGreen = Color(0xff00b489);
+
+  // Airbnb
+  static const Color airbnbRed = Color(0xfffd5c63);
+
+  // Alibaba
+  static const Color alibabaOrange = Color(0xffff6a00);
+
+  // AngularJS
+  static const Color angularJsRed = Color(0xffb52e31);
+  static const Color angularJsBlack = Color(0xff000000);
+
+  // Coca-Cola
+  static const Color cocaColaRed = Color(0xffed1c16);
+  static const Color cocaColaVividRed = Color(0xfff40009);
+
+  // SwipeRx
+  static const Color swipeRxGreen = Color(0xff2fbca1);
+  static const Color swipeRxDarkGreen = Color(0xff269781);
+  static const Color swipeRxLightGreen = Color(0xffbbdce8);
+  static const Color swipeRxMossGreen = Color(0xff27a18b);
+  static const Color swipeRxYellow = Color(0xffffcc66);
+  static const Color swipeRxBrown = Color(0xff71592d);
+
+  // Fast food
+  // McDonald's
+  static const Color mcDonaldsYellow = Color(0xffffc72c);
+  static const Color mcDonaldsRed = Color(0xffda291c);
+  static const Color mcDonaldsBlack = Color(0xff27251f);
+
+  // Burger King
+  static const Color burgerKingRed = Color(0xffda291c);
+  static const Color burgerKingBlue = Color(0xff0033a0);
+  static const Color burgerKingYellow = Color(0xfff2a900);
+
+  // Dunkin' Donuts
+  static const Color dunkinDonutsOrange = Color(0xffff671f);
+  static const Color dunkinDonutsMagenta = Color(0xffda1884);
+  static const Color dunkinDonutsBrown = Color(0xff653819);
+
+  // Starbucks
+  static const Color starbucksGreen = Color(0xff00704a);
+  static const Color starbucksBlack = Color(0xff27251f);
+
+  // Subway
+  static const Color subwayGreen = Color(0xff008c15);
+  static const Color subwayMarigold = Color(0xffffc600);
+
+  // Taco Bell
+  static const Color tacoBellDarkPurple = Color(0xff702082);
+  static const Color tacoBellLightPurple = Color(0xffa77bca);
+  static const Color tacoBellBlack = Color(0xff000000);
+
+  //
 }
