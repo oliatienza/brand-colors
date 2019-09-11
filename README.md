@@ -2,13 +2,25 @@
 
 This is just a collection of Color constants of the most popular brands and companies out there -- so you no longer have to keep Google-searching the hex codes for each.
 
-## Getting Started
+## List of Colors
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Conveniently browse through all the currently available colors through this [website](https://oliatienza.github.io/works/brand_colors.html#/)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+### Example
+```
+import 'package:brand_colors/brand_colors.dart';
+import 'package:flutter/material.dart';
+
+class Example extends StatelessWidget {
+  const Example({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: BrandColors.facebookBlue,
+    );
+  }
+}
+```

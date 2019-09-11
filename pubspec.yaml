@@ -1,6 +1,6 @@
 name: brand_colors
 description: This is just a collection of Color constants of the most popular brands and companies out there -- so you no longer have to keep Google-searching the hex codes for each.
-version: 0.0.2
+version: 0.0.3
 author: Oli Atienza <oliatienza@gmail.com>
 homepage: https://github.com/oliatienza
 
